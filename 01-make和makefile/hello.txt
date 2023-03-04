@@ -1,0 +1,4 @@
+# 执行 make -f hello.txt hello 即可执行
+
+hello :
+	echo "hello makefile"
