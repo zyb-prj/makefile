@@ -1,0 +1,1 @@
+objs/fun.o : fun.c func.h
