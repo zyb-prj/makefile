@@ -10,6 +10,8 @@ DIR_OBJS := objs						# 定义.o文件存放文件夹名
 
 DIR := $(DIR_DEPS) $(DIR_EXES) $(DIR_OBJS)
 
+EXES := app.out							# 定义z
+
 SRCS := $(wildcard *.c)
 DEPS := $(SRCS:.c=.dep)
 DEPS := $(addprefix $(DIR_DEPS)/, $(DEPS))
